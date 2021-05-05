@@ -1,0 +1,19 @@
+#Pergunta os intervalo de anos
+
+ano_inicial = int(input("Ano inicial...:"))
+ano_final = int(input("Ano final...:"))
+
+# definir um loop que ocorra o nº de vezes
+#igual ao intervalo entre ano_inicial e ano_final
+
+for ano in range(ano_inicial,ano_final+1):
+    # a variavel ano assume os valores de ano_inicial ate ano_final
+    
+    if ano % 4 == 0 and ano % 100 !=0 or ano % 400 ==0:
+        print(ano, " - bissexto")
+    else:
+        print(ano, " - nao bissexto")
+
+    #fim do for
+    
+print ("fim")
