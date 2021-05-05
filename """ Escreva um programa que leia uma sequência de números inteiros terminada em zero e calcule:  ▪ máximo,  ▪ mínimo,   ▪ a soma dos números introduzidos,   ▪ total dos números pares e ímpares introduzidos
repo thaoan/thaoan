@@ -7,6 +7,8 @@ contador = 1
 soma = 0
 pares = 0
 impares = 0
+max = 0 
+min = 0
 
 print("Zero(0) p/ terminar...")
 
@@ -21,9 +23,21 @@ while True : # loop infinito
     
     if numero % 2 == 0:
         pares = pares +1
+    
     else:
         impares = impares +1
     
+    #considerar o 1º numero como max e min
+    if contador ==1: 
+        max = numero
+        min = numero
+
+    if numero > max:
+        max = numero
+
+    if numero < min:
+        min = numero
+
     contador = contador + 1
 
     # fim loop while
@@ -32,3 +46,5 @@ print()
 print(f"A soma é: {soma}")
 print(f"Qtd pares...: {pares}")
 print(f"Qtd impares...: {impares}")
+print(f"Maximo...: {max}")
+print(f"Minimo..: {min}")
