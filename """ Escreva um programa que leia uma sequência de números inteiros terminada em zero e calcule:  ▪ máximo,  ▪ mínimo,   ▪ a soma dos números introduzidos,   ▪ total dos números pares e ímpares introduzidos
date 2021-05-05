@@ -1,0 +1,34 @@
+"""numero = -1
+while numero != 0:
+
+    numero = int(input("Numero...:  "))
+"""
+contador = 1
+soma = 0
+pares = 0
+impares = 0
+
+print("Zero(0) p/ terminar...")
+
+while True : # loop infinito
+    numero = int(input("Numero" + str(contador) + ":  "))
+
+       #calcule para loop terminar
+    if numero == 0:
+        break # termina loop
+    
+    soma = soma + numero
+    
+    if numero % 2 == 0:
+        pares = pares +1
+    else:
+        impares = impares +1
+    
+    contador = contador + 1
+
+    # fim loop while
+print()
+# print("A soma é:",soma)
+print(f"A soma é: {soma}")
+print(f"Qtd pares...: {pares}")
+print(f"Qtd impares...: {impares}")
