@@ -1,12 +1,37 @@
+# Hey, I'm Thaoan 👋
 
--👀 I’m interested in exploring the vast world of software development and creating innovative solutions.
+Backend developer focused on Go and C#, based in Porto 🇵🇹
 
--🌱 I’m currently learning and proficient in Python, Java, HTML, CSS, C# (object-oriented), Laravel, WPF, and SQL.
+Currently building in public — learning by shipping real projects and documenting the process.
 
--💞️ I’m looking to collaborate on projects that leverage my skills in these technologies, whether it's web development, desktop applications, or database management.
+---
 
--📫 How to reach me: https://www.linkedin.com/in/thaoan-rodrigues-43a58aa0/
-<!---
-thaoan/thaoan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+### 🛠️ Tech stack
+
+**Primary focus**
+- Go (Golang) — APIs, microservices, backend systems
+- C# — object-oriented, .NET ecosystem
+
+**Also work with**
+- SQL · REST APIs · Docker (learning)
+
+---
+
+### 📌 Featured projects
+
+- 🚀 [myfirstgame](https://github.com/thaoan/myfirstgame) — Space shooter in Go. Built to practice memory management, package architecture, and pointer usage.
+- ⚙️ [go-api-git](https://github.com/thaoan/go-api-git) — REST API in Go.
+
+---
+
+### 🎯 Currently
+
+- Looking for a **junior backend** role
+- Deepening Go knowledge — microservices, performance, clean architecture
+- Building a public portfolio one project at a time
+
+---
+
+### 📫 Let's connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-thaoan-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/thaoan-rodrigues-43a58aa0/)
